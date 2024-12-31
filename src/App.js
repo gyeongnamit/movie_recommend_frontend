@@ -118,7 +118,7 @@ function App() {
       <section>
         {selectedMovie && ( // 선택된 영화가 있을 경우만 표시
           <>
-            <h2>{`"${selectedMovie}"와 비슷한 영화`}</h2> {/* 선택된 영화와 비슷한 영화 제목 */}
+            <h2>{`"${selectedMovie}"를 좋하하는 당신에게 추천하는 영화`}</h2> {/* 선택된 영화와 비슷한 영화 제목 */}
             <div className="movie-grid"> {/* 추천 영화 목록 */}
               {recommendedMovies.map((movie, index) => (
                 <div key={index} className="movie-card"> {/* 추천 영화 카드 */}
